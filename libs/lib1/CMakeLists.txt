@@ -1,6 +1,6 @@
 project(lib1)
 
-add_library(${PROJECT_NAME}
+add_library(${PROJECT_NAME} SHARED
 	lib1-priv-impl.cpp
 	lib1-pub-impl.cpp
 )
@@ -23,3 +23,9 @@ target_compile_features(${PROJECT_NAME}
 if(BUILD_TESTING)
 	add_subdirectory(tests)
 endif()
+
+# install target
+install(TARGETS ${PROJECT_NAME}
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+        RUNTIME DESTINATION bin)
