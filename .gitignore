@@ -33,3 +33,8 @@
 
 # Folders
 build/*
+install/*
+.clangd/*
+
+compile_commands.json
+modern-cmake-template.code-workspace
