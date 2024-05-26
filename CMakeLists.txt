@@ -7,18 +7,18 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include(CTest)
 include(cmake/pathSetting.cmake)
 
-# find_package(Torch REQUIRED
-#             NO_MODULE
-#             PATHS ${CMAKE_CURRENT_SOURCE_DIR}/external_libs/libtorch-cxx11-abi-shared-with-deps-2.2.2+cpu/libtorch
-#             NO_DEFAULT_PATH)
 
 set(EXT_TORCH_DIR "${CMAKE_CURRENT_SOURCE_DIR}/external_libs/libtorch-cxx11-abi-shared-with-deps-2.2.2+cpu/libtorch")
 find_package(Torch REQUIRED PATHS "${EXT_TORCH_DIR}" NO_DEFAULT_PATH)
 
-# 安装 Torch 的动态库到您的项目库目录中
 file(GLOB EXT_TORCH_LIBRARIES "${EXT_TORCH_DIR}/lib/*.so*") 
 install(FILES ${EXT_TORCH_LIBRARIES} DESTINATION lib)
 
+set(EXT_OPENCV_DIR "${CMAKE_CURRENT_SOURCE_DIR}/external_libs/opencv-4.9.0/install")
+find_package(OpenCV REQUIRED PATHS "${EXT_OPENCV_DIR}" NO_DEFAULT_PATH)
+
+file(GLOB EXT_OPENCV_LIBRARIES "${EXT_OPENCV_DIR}/lib/*.so*") 
+install(FILES ${EXT_OPENCV_LIBRARIES} DESTINATION lib)
 
 add_subdirectory(libs)
 add_subdirectory(app)
