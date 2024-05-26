@@ -1,7 +1,15 @@
-#include "lib1-priv-header.h"
+#include <"lib1-pub-header.h">
 
-namespace lib1 {
-auto sum(const int first, const int second) -> int {
-  return sum_aux(first, second);
+namespace dodo {
+
+DodoModel::DodoModel(const std::string& path) {
+  module = torch::jit::load(modelPath.c_str());
 }
+
+DodoModel::~DodoModel() {
+  
+}
+
+
+
 } // namespace lib1
