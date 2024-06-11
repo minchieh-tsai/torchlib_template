@@ -1,7 +1,6 @@
 project(lib1)
 
 add_library(${PROJECT_NAME} SHARED
-	lib1-priv-impl.cpp
 	lib1-pub-impl.cpp
 )
 
@@ -16,8 +15,14 @@ target_include_directories(${PROJECT_NAME}
 )
 
 target_compile_features(${PROJECT_NAME}
-	PRIVATE
-		cxx_std_11
+PUBLIC
+	cxx_std_17
+)
+
+target_link_libraries(${PROJECT_NAME}
+PUBLIC
+    ${TORCH_LIBRARIES}
+    ${OpenCV_LIBS}
 )
 
 if(BUILD_TESTING)

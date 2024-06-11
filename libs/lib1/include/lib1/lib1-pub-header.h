@@ -5,6 +5,8 @@
 #include <vector>
 #include <memory>
 #include <opencv2/opencv.hpp>
+#include <torch/torch.h>
+#include <torch/script.h>
 
 namespace dodo {
 
@@ -18,8 +20,8 @@ public:
 
 private:
     torch::jit::script::Module module;
-}
+};
 
 }
 
-#endif
+#endif  // LIB1_PUB_HEADER

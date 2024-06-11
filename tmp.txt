@@ -1,0 +1,49 @@
+loadModel("/usr/path/model");
+output = inference(imgs);
+
+
+{   // 擺Model
+    auto model = Model("/usr/path/model"); 
+    output = model.inference(imgs);
+
+    auto bModel = model;    // 真的複製了一整個 model
+}
+
+{   // 擺Model的ptr
+    Model* model = new Model("/usr/path/model"); 
+    output = model->inference(imgs);
+    // delete model; // mem leak
+
+    auto bModel = model;     // 複製了model的ptr，沒任何資源產生
+}
+
+{   // 擺裝著Model的ptr的容器
+    std::unique_ptr<Model> model = Model::create("/usr/path/model");
+    output = model->inference(imgs);
+
+    auto bModel = model;    // 產生新的ptr容器，裝著相同的ptr
+}
+
+auto model = Model()
+model.loadModel
+model.inference
+
+
+class DodoModel {
+public:
+    DodoModel(const std::string& path);
+    ~DodoModel();
+    static std::unique_ptr<DodoModel> create(const std::string& path);
+    std::vector<cv::Mat> inference(const std::vector<cv::Mat>& imgs);
+}
+
+{
+    std::string path("/usr/123");
+    auto model = DodoModel(path);
+    output = model.inference(imgs);
+}
+
+{
+    std::unique_ptr<DodoModel> dodoModel = DodoModel::create("/usr/path/model");
+    output = dodoModel->inference(imgs);
+}

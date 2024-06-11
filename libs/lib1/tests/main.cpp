@@ -1,7 +1,8 @@
+#include <cstdlib>
 #include <iostream>
 #include <lib1/lib1-pub-header.h>
 
 int main(int, char **) {
-  std::cout << "Running tests...\n";
-  return 42 == lib1::sum(40, 2) ? 0 : 1;
+    std::unique_ptr<dodo::DodoModel> dodoModel = dodo::DodoModel::create("./external_libs/model/pretrained_script.pt");
+    return EXIT_SUCCESS;
 }

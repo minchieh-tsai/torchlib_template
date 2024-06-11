@@ -1,18 +1,6 @@
-#include <"lib1-pub-header.h">
+#include "lib1/lib1-pub-header.h"
 
 namespace dodo {
-
-DodoModel::DodoModel(const std::string& path) {
-  module = torch::jit::load(modelPath.c_str());
-}
-
-DodoModel::~DodoModel() {
-  
-}
-
-
-// chatGPT answer
-#include "DodoModel.h"
 
 // 构造函数：加载模型
 DodoModel::DodoModel(const std::string& path) {
@@ -53,5 +41,4 @@ std::vector<cv::Mat> DodoModel::inference(const std::vector<cv::Mat>& imgs) {
     return results;
 }
 
-
-} 
+}   // namespace dodo

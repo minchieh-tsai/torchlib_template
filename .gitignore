@@ -35,6 +35,7 @@
 build/*
 install/*
 .clangd/*
+external_libs/*
 
 compile_commands.json
 modern-cmake-template.code-workspace
