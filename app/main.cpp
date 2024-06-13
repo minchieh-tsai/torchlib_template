@@ -118,9 +118,23 @@ int main(int argc, const char* argv[]) {
 
 
 
-    std::unique_ptr<dodo::DodoModel> dodoModel = dodo::DodoModel::create("./external_libs/model/pretrained_script.pt");
+    std::unique_ptr<dodo::DodoModel> dodoModel = dodo::DodoModel::create("./external_libs/model/model_trace_v3.pt");
     auto output = dodoModel->inference(images);
 
     std::cout << "Total output images: " << output.size() << std::endl;
+
+
+    // 保存结果图像
+    for (size_t i = 0; i < output.size(); ++i) {
+        std::string outputPath = "result/result_" + std::to_string(i) + ".png";
+        if (cv::imwrite(outputPath, output[i])) {
+            std::cout << "Saved result image " << i << " to " << outputPath << std::endl;
+        } else {
+            std::cerr << "Failed to save result image " << i << " to " << outputPath << std::endl;
+        }
+    }
+
+    return 0;
+
 
 }
