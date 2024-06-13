@@ -3,6 +3,13 @@
 # 設定腳本在遇到錯誤時終止
 set -e
 
+# 檢查是否提供了構建類型參數
+BUILD_TYPE=$1
+if [ -z "$BUILD_TYPE" ]; then
+    echo "No build type specified. Using 'Release' by default."
+    BUILD_TYPE=Release
+fi
+
 SOURCE_DIR=$(pwd)
 BUILD_DIR="${SOURCE_DIR}/build"
 INSTALL_DIR="${SOURCE_DIR}/install" 
@@ -22,7 +29,7 @@ mkdir -p ${INSTALL_DIR}
 
 # 步骤1: 配置项目
 echo "Configuring project..."
-cmake -S ${SOURCE_DIR} -B ${BUILD_DIR} -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR}
+cmake -S ${SOURCE_DIR} -B ${BUILD_DIR} -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DCMAKE_BUILD_TYPE=${BUILD_TYPE}
 
 # 步骤2: 构建项目
 echo "Building project..."

@@ -1,0 +1,10 @@
+    12: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::~Mat()
+    33: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::clone() const
+    80: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat&&)
+    87: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat const&)
+    91: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(int, int, int, void*, unsigned long)
+   319: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::~Mat()
+   606: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::clone() const
+  1090: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat&&)
+  1184: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat const&)
+  1230: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(int, int, int, void*, unsigned long)

@@ -47,3 +47,13 @@ public:
     std::unique_ptr<DodoModel> dodoModel = DodoModel::create("/usr/path/model");
     output = dodoModel->inference(imgs);
 }
+
+
+
+b main.cpp : 101 (斷點在某一行)
+p var (列印)
+watch var (查看變數何時被改變)
+l (查看上下行)
+next (執行下一行)
+step (執行下一個function)
+

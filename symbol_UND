@@ -1,0 +1,184 @@
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::~allocator()@GLIBCXX_3.4 (2)
+     2: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@GLIBCXX_3.4.21 (3)
+     3: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const@GLIBCXX_3.4.21 (3)
+     4: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (4)
+     5: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::AnyType::get()
+     6: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND c10::UndefinedTensorImpl::_singleton
+     7: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@GLIBCXX_3.4.21 (3)
+     8: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@GLIBCXX_3.4.21 (3)
+     9: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::ListType::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, c10::Type::SingletonOrSharedTypePtr<c10::Type>)
+    10: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::load(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::optional<c10::Device>, bool)
+    11: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND typeinfo for std::exception@GLIBCXX_3.4 (2)
+    12: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::~Mat()
+    13: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::runtime_error::runtime_error(char const*)@GLIBCXX_3.4.21 (3)
+    14: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.2.5 (5)
+    15: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)
+    16: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::IValue::reportToTensorTypeError() const
+    17: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.2.5 (5)
+    18: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::_ops::to_dtype::call(at::Tensor const&, c10::ScalarType, bool, bool, std::optional<c10::MemoryFormat>)
+    19: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __pthread_key_create
+    20: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for __cxxabiv1::__class_type_info@CXXABI_1.3 (4)
+    21: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_abort@CXXABI_1.3 (4)
+    22: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::Method::operator()(std::vector<c10::IValue, std::allocator<c10::IValue> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10::IValue, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, c10::IValue> > > const&) const
+    23: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@GLIBCXX_3.4.21 (3)
+    24: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)
+    25: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND operator delete(void*)@GLIBCXX_3.4 (2)
+    26: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (4)
+    27: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_length_error(char const*)@GLIBCXX_3.4 (2)
+    28: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (6)
+    29: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::_ops::permute::call(at::Tensor const&, c10::ArrayRef<long>)
+    30: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@GLIBCXX_3.4.21 (3)
+    31: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_atexit@GLIBC_2.2.5 (5)
+    32: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::~allocator()@GLIBCXX_3.4 (2)
+    33: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::clone() const
+    34: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::allocator()@GLIBCXX_3.4 (2)
+    35: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (4)
+    36: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@GLIBCXX_3.4.26 (7)
+    37: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND caffe2::TypeMeta::error_unsupported_typemeta(caffe2::TypeMeta)
+    38: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND typeinfo for std::runtime_error@GLIBCXX_3.4 (2)
+    39: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND std::cerr@GLIBCXX_3.4 (2)
+    40: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(unsigned long)@GLIBCXX_3.4 (2)
+    41: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@GLIBCXX_3.4.21 (3)
+    42: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+    43: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@GLIBCXX_3.4 (2)
+    44: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)
+    45: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::TensorMaker::make_tensor()
+    46: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+    47: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@GLIBCXX_3.4.21 (3)
+    48: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_logic_error(char const*)@GLIBCXX_3.4 (2)
+    49: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for c10::AutogradMetaInterface
+    50: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_bad_alloc()@GLIBCXX_3.4 (2)
+    51: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND operator new(unsigned long)@GLIBCXX_3.4 (2)
+    52: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    53: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@GLIBCXX_3.4.21 (3)
+    54: 0000000000000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.2.5 (5)
+    55: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@GLIBCXX_3.4.21 (3)
+    56: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@GLIBCXX_3.4 (2)
+    57: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (4)
+    58: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    59: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::AutogradMetaInterface::~AutogradMetaInterface()
+    60: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@GLIBCXX_3.4.21 (3)
+    61: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (4)
+    62: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for torch::autograd::AutogradMeta
+    63: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+    64: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@GLIBCXX_3.4.21 (3)
+    65: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::StringType::get()
+    66: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)
+    67: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (4)
+    68: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@GLIBCXX_3.4 (2)
+    69: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (4)
+    70: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::ios_base::Init::~Init()@GLIBCXX_3.4 (2)
+    71: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND float* at::TensorBase::data_ptr<float>() const
+    72: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for torch::jit::Method
+    73: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)
+    74: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (4)
+    75: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@GLIBCXX_3.4.21 (3)
+    76: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.2.5 (5)
+    77: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (4)
+    78: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@GLIBCXX_3.4.21 (3)
+    79: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::runtime_error::~runtime_error()@GLIBCXX_3.4 (2)
+    80: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat&&)
+    81: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for __cxxabiv1::__si_class_type_info@CXXABI_1.3 (4)
+    82: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (4)
+    83: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@GLIBCXX_3.4.21 (3)
+    84: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND long c10::detail::maybe_wrap_dim_slow<long>(long, long, bool)
+    85: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::ios_base::Init::Init()@GLIBCXX_3.4 (2)
+    86: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_ostream<char, std::char_traits<char> >& (*)(std::basic_ostream<char, std::char_traits<char> >&))@GLIBCXX_3.4 (2)
+    87: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat const&)
+    88: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::Object::find_method(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+    89: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::~ExcludeDispatchKeyGuard()
+    90: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::terminate()@GLIBCXX_3.4 (2)
+    91: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(int, int, int, void*, unsigned long)
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+   200: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::~allocator()@@GLIBCXX_3.4
+   209: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@@GLIBCXX_3.4.21
+   212: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const@@GLIBCXX_3.4.21
+   230: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@@CXXABI_1.3
+   253: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::AnyType::get()
+   257: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND c10::UndefinedTensorImpl::_singleton
+   259: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+   266: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@@GLIBCXX_3.4.21
+   284: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::ListType::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, c10::Type::SingletonOrSharedTypePtr<c10::Type>)
+   286: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::load(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::optional<c10::Device>, bool)
+   313: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND typeinfo for std::exception@@GLIBCXX_3.4
+   319: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::~Mat()
+   320: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::runtime_error::runtime_error(char const*)@@GLIBCXX_3.4.21
+   327: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memset@@GLIBC_2.2.5
+   334: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)
+   344: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::IValue::reportToTensorTypeError() const
+   362: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strlen@@GLIBC_2.2.5
+   363: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::_ops::to_dtype::call(at::Tensor const&, c10::ScalarType, bool, bool, std::optional<c10::MemoryFormat>)
+   365: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __pthread_key_create
+   366: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
+   370: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_abort@@CXXABI_1.3
+   402: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::Method::operator()(std::vector<c10::IValue, std::allocator<c10::IValue> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10::IValue, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, c10::IValue> > > const&) const
+   404: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@@GLIBCXX_3.4.21
+   414: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)
+   422: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND operator delete(void*)@@GLIBCXX_3.4
+   447: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@@CXXABI_1.3
+   460: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_length_error(char const*)@@GLIBCXX_3.4
+   476: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@@GCC_3.0
+   493: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::_ops::permute::call(at::Tensor const&, c10::ArrayRef<long>)
+   517: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+   581: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_atexit@@GLIBC_2.2.5
+   598: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::~allocator()@@GLIBCXX_3.4
+   606: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::clone() const
+   613: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::allocator<char>::allocator()@@GLIBCXX_3.4
+   616: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_pure_virtual@@CXXABI_1.3
+   629: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@@GLIBCXX_3.4.26
+   630: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND caffe2::TypeMeta::error_unsupported_typemeta(caffe2::TypeMeta)
+   631: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND typeinfo for std::runtime_error@@GLIBCXX_3.4
+   641: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND std::cerr@@GLIBCXX_3.4
+   643: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(unsigned long)@@GLIBCXX_3.4
+   645: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@@GLIBCXX_3.4.21
+   653: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   680: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@@GLIBCXX_3.4
+   685: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)
+   687: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND at::TensorMaker::make_tensor()
+   741: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+   744: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4.21
+   751: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+   766: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for c10::AutogradMetaInterface
+   768: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__throw_bad_alloc()@@GLIBCXX_3.4
+   769: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND operator new(unsigned long)@@GLIBCXX_3.4
+   776: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+   785: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21
+   788: 0000000000000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@@GLIBC_2.2.5
+   835: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@@GLIBCXX_3.4.21
+   855: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@@GLIBCXX_3.4
+   868: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@@CXXABI_1.3
+   881: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   884: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::AutogradMetaInterface::~AutogradMetaInterface()
+   888: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@@GLIBCXX_3.4.21
+   897: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@@CXXABI_1.3
+   920: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for torch::autograd::AutogradMeta
+   922: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+   928: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+   955: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::StringType::get()
+   959: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)
+   961: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@@CXXABI_1.3
+   966: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@@GLIBCXX_3.4
+   977: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@@CXXABI_1.3
+   988: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::ios_base::Init::~Init()@@GLIBCXX_3.4
+  1024: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND float* at::TensorBase::data_ptr<float>() const
+  1027: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for torch::jit::Method
+  1047: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)
+  1049: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@@CXXABI_1.3
+  1050: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4.21
+  1059: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@@GLIBC_2.2.5
+  1061: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@@CXXABI_1.3
+  1075: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@@GLIBCXX_3.4.21
+  1080: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::runtime_error::~runtime_error()@@GLIBCXX_3.4
+  1090: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat&&)
+  1091: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
+  1094: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@@CXXABI_1.3
+  1128: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@@GLIBCXX_3.4.21
+  1133: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND long c10::detail::maybe_wrap_dim_slow<long>(long, long, bool)
+  1155: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::ios_base::Init::Init()@@GLIBCXX_3.4
+  1158: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_ostream<char, std::char_traits<char> >& (*)(std::basic_ostream<char, std::char_traits<char> >&))@@GLIBCXX_3.4
+  1184: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(cv::Mat const&)
+  1193: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND torch::jit::Object::find_method(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+  1202: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND c10::impl::ExcludeDispatchKeyGuard::~ExcludeDispatchKeyGuard()
+  1209: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND std::terminate()@@GLIBCXX_3.4
+  1230: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND cv::Mat::Mat(int, int, int, void*, unsigned long)
